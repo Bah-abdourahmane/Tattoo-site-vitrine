@@ -1,14 +1,14 @@
 // import images
-import Logo from '../src/img/header/logo.svg';
-import GalleryImg1 from '../src/img/gallery/1.png';
-import GalleryImg2 from '../src/img/gallery/2.png';
-import GalleryImg3 from '../src/img/gallery/3.png';
-import GalleryImg4 from '../src/img/gallery/4.png';
-import GalleryImg5 from '../src/img/gallery/5.png';
-import GalleryImg6 from '../src/img/gallery/6.png';
-import GalleryImg7 from '../src/img/gallery/7.png';
-import GalleryImg8 from '../src/img/gallery/8.png';
-import QuoteImg from '../src/img/testimonial/quote.svg';
+import Logo from '../src/assets/header/logo.svg';
+import Galleryassets1 from '../src/assets/gallery/1.png';
+import Galleryassets2 from '../src/assets/gallery/2.png';
+import Galleryassets3 from '../src/assets/gallery/3.png';
+import Galleryassets4 from '../src/assets/gallery/4.png';
+import Galleryassets5 from '../src/assets/gallery/5.png';
+import Galleryassets6 from '../src/assets/gallery/6.png';
+import Galleryassets7 from '../src/assets/gallery/7.png';
+import Galleryassets8 from '../src/assets/gallery/8.png';
+import Quoteassets from '../src/assets/testimonial/quote.svg';
 // import icons
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
@@ -68,50 +68,50 @@ export const galleryData = {
   btnIcon: <IoMdArrowForward />,
   images: [
     {
-      src: GalleryImg1,
-      original: GalleryImg1,
+      src: Galleryassets1,
+      original: Galleryassets1,
       width: 465,
       height: 412,
     },
     {
-      src: GalleryImg2,
-      original: GalleryImg2,
+      src: Galleryassets2,
+      original: Galleryassets2,
       width: 465,
       height: 540,
     },
     {
-      src: GalleryImg3,
-      original: GalleryImg3,
+      src: Galleryassets3,
+      original: Galleryassets3,
       width: 465,
       height: 412,
     },
     {
-      src: GalleryImg4,
-      original: GalleryImg4,
+      src: Galleryassets4,
+      original: Galleryassets4,
       width: 465,
       height: 540,
     },
     {
-      src: GalleryImg5,
-      original: GalleryImg5,
+      src: Galleryassets5,
+      original: Galleryassets5,
       width: 465,
       height: 540,
     },
     {
-      src: GalleryImg6,
-      original: GalleryImg6,
+      src: Galleryassets6,
+      original: Galleryassets6,
       width: 464,
       height: 412,
     },
     {
-      src: GalleryImg7,
-      original: GalleryImg7,
+      src: Galleryassets7,
+      original: Galleryassets7,
       width: 465,
       height: 540,
     },
     {
-      src: GalleryImg8,
-      original: GalleryImg8,
+      src: Galleryassets8,
+      original: Galleryassets8,
       width: 465,
       height: 412,
     },
@@ -127,14 +127,14 @@ export const interviewData = {
 
 export const testimonialData = [
   {
-    quoteImg: QuoteImg,
+    quoteassets: Quoteassets,
     message:
       "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
     name: 'Jack Geoffrey',
     occupation: 'Tattoo Artist',
   },
   {
-    quoteImg: QuoteImg,
+    quoteassets: Quoteassets,
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?',
     name: 'Douglas Hane',
